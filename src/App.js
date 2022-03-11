@@ -36,12 +36,15 @@ function App() {
     <h3>REACT_APP_prod</h3>
     <code>{process.env.REACT_APP_prod}</code>
 
-    <h2>Temporary Environment Variables In Your Shell</h2>
-    <code>
-      REACT_APP_STAGE=123246549 npm start
-    </code>
+    <h2>Using React Scripts in package.json</h2>
     <code>
       {process.env.REACT_APP_STAGE}
+    </code>
+
+    <h2>Temporary Environment Variables In Your Shell</h2>
+    <p>Initialize with <i>REACT_APP_MODE=123246549 npm start</i>.</p>
+    <code>
+      {process.env.REACT_APP_MODE}
     </code>
     
     <h2>npm_package_version</h2>
