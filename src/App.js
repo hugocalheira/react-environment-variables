@@ -43,6 +43,11 @@ function App() {
     <code>
       {process.env.REACT_APP_STAGE}
     </code>
+    
+    <h2>npm_package_version</h2>
+    <code>
+      {process.env.REACT_APP_VERSION}
+    </code>
   </>
   );
 }
